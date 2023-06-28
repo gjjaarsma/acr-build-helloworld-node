@@ -1,4 +1,4 @@
-FROM node:15-alpine
+FROM gjacr230628.azurecr.io/node:15-alpine
 
 COPY . /src
 RUN cd /src && npm install
